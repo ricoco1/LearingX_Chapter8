@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Tugas Chapter 8" />
+    <meta property="og:description" content="Tugas mengambil data dari API yang telah disediakan dan menampilkannya pada 2 halaman website menggunakan flask sebagai serversidenya" />
+    <meta property="og:image" content="{{ url_for('static', filename = 'logo.png') }}" />
+    <link rel="icon" href="static/logo.png" type="image/png">
+    <title>Homepage</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mt-5">Homepage</h1>
+
+        <div id="peopleTable"></div>
+        <button class="btn btn-primary mt-3" onclick="toJobsPage()">Go to Jobs Page</button>
+    </div>
+</body>
+
+</html>
